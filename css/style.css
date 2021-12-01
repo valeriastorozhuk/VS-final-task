@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto";
+}
+
+.menu,
+p.connect {
+  font-family: "October Twilight";
+  font-size: 25px;
+  color: #708c87;
+}
+
+.connect {
+  font-family: "October Twilight";
+  font-size: 20px;
+  color: #708c87;
+  text-decoration: none;
+}
+
+.decoration,
+.connect:hover,
+.pres:hover {
+  text-decoration: none;
+  color: #f0b6ae;
+}
+
+.pres {
+  text-decoration: none;
+  color: #708c87;
+}
+
+.menu:hover,
+li.active {
+  color: white;
+  background-color: #f0b6ae;
+  border-radius: 5px;
+}
+
+.card {
+  border-color: white;
+}
+
+.reg {
+  background-color: #f0b6ae;
+}
+
+.reg:hover {
+  background-color: #708c87;
+  color: white;
+}
+
+.nodec {
+  text-decoration: none;
+  color: black;
+}
+
+.nodec:hover,
+.msg {
+  text-decoration: none;
+  color: rgb(2, 2, 29);
+}
+
+.form-check-input:checked {
+  background-color: #708c87;
+  border-color: #f0b6ae;
+}
+
+.card-header,
+.card-footer {
+  background-color: white;
+}
+
+.uname {
+  max-width: 250px;
+}
+
+.form.control.input:focus {
+  border-collapse: #f0b6ae;
+}
+
+.emptyform,
+.is-invalid {
+  background-color: #f0b6ae;
+}
+
+.uname:focus,
+.message:focus {
+  border-color: #f0b6ae;
+  box-shadow: none;
+}
